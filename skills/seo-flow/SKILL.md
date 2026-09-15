@@ -21,8 +21,6 @@ FLOW is an evidence-led SEO operating model built for the AI-search era. Claude 
 integrates the FLOW prompt library (41 prompts across 5 stages) so every analysis can
 be driven by structured, evidence-backed AI prompts rather than improvised queries.
 
-> Framework and prompts © Daniel Agrici, CC BY 4.0: github.com/AgriciDaniel/flow
-
 **Runtime context:** Load `references/flow-framework.md` on every `/seo flow` activation.
 Load prompt files on demand, only for the stage the user requests.
 
@@ -84,7 +82,6 @@ Load prompt files on demand, only for the stage the user requests.
 ### On `/seo flow sync`
 1. Run: `"${CLAUDE_PLUGIN_ROOT}/scripts/claude-seo" run sync_flow.py`
 2. Display the JSON summary (files added, updated, unchanged)
-3. Show attribution notice after sync completes
 
 ---
 
@@ -114,17 +111,6 @@ Load on-demand, do NOT load all at startup:
 
 ---
 
-## Attribution
-
-Every `/seo flow` activation (any sub-command) outputs before analysis:
-
-```
-Framework and prompts © Daniel Agrici, CC BY 4.0: github.com/AgriciDaniel/flow
-```
-
-Do not omit or modify the attribution.
-
----
 
 ## Error Handling
 

@@ -290,8 +290,6 @@ Display rate limits table. Read `references/rate-limits-quotas.md`.
 
 ## Reports
 
-After any analysis command, offer to generate a PDF/HTML report.
-
 ### `/seo google report <type>`
 
 Generate a professional PDF report with charts and analytics.
@@ -309,8 +307,6 @@ Generate a professional PDF report with charts and analytics.
 1. Run data collection commands (pagespeed, gsc, inspect-batch, etc.)
 2. Save JSON output to file: `"${CLAUDE_PLUGIN_ROOT}/scripts/claude-seo" run pagespeed_check.py <url> --json > data.json`
 3. Generate report: `"${CLAUDE_PLUGIN_ROOT}/scripts/claude-seo" run google_report.py --type cwv-audit --data data.json --domain <domain>`
-
-**Convention:** After completing analysis, suggest: "Generate a report? Use `/seo google report <type>`"
 
 ---
 

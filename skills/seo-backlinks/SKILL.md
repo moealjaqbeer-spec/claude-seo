@@ -291,11 +291,6 @@ Do NOT skip this step. Fix any issues found before showing the report.
 
 If ANY check fails, fix the finding before presenting. Never present inferred data as fact.
 
-## Post-Analysis
-
-After completing any backlink analysis command, always offer:
-"Generate a professional PDF report? Use `/seo google report`"
-
 ## Reference Documentation
 
 Load on demand (do NOT load at startup):

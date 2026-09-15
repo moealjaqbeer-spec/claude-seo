@@ -80,7 +80,6 @@ Score the target page across 7 dimensions (100 points total):
 - SXO score is SEPARATE from SEO Health Score -- always label it "SXO Gap Score"
 - Lead with mismatch finding if one exists (this is the key insight)
 - Include limitations section (what could not be assessed)
-- Offer: "Generate a PDF report? Use `/seo google report`"
 
 ## Pre-Delivery Checklist
 

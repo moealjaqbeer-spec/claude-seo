@@ -52,10 +52,9 @@ Match existing claude-seo patterns:
 - Note data source as "Google API (field data)" to distinguish from static analysis
 - Include data freshness notes (CrUX: 28-day rolling, GSC: 2-3 day lag, GA4: 1 day lag)
 
-## Report Generation (MANDATORY)
+## Report Generation
 
-After completing data collection at any tier, offer to generate a PDF report.
-The report uses the enterprise template: white cover, navy accents, Times New Roman, charts at 85% width, Google logo on title page. No page-break-inside: avoid (causes white gaps).
+When the user asks for a report, the report uses the enterprise template: white cover, navy accents, Times New Roman, charts at 85% width, Google logo on title page. No page-break-inside: avoid (causes white gaps).
 
 ```bash
 "${CLAUDE_PLUGIN_ROOT}/scripts/claude-seo" run google_report.py --type full --data data.json --domain DOMAIN --format pdf --json

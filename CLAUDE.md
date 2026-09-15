@@ -219,7 +219,6 @@ claude-seo/
 - **No `page-break-inside: avoid`** on any element (causes white gaps in WeasyPrint)
 - **Post-generation review**: `_review_pdf()` runs automatically, checking for empty images, thin sections, duplicates
 - **Before presenting any PDF to the user**: verify the review passes (`"status": "PASS"`)
-- **Cross-skill enforcement**: After completing ANY analysis command (audit, page, technical, content, schema, geo, local, maps), offer: "Generate a PDF report? Use `/seo google report`"
 - **Google logo** appears on title page when using Google API data ("Powered by Google APIs")
 
 ## Ecosystem

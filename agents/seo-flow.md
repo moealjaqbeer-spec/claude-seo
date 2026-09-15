@@ -28,8 +28,6 @@ When given a URL and a FLOW stage (find, leverage, optimize, win, or local):
 ```
 # FLOW Analysis: {STAGE} — {domain}
 
-> Framework and prompts © Daniel Agrici, CC BY 4.0 — github.com/AgriciDaniel/flow
-
 ## Prompts Applied
 - {prompt-filename}: {one-line rationale}
 
@@ -43,7 +41,6 @@ When given a URL and a FLOW stage (find, leverage, optimize, win, or local):
 
 ## Rules
 
-- Always output the attribution line before any analysis output
 - Apply at most 5 prompts per call (context window constraint)
 - For optimize stage: never load all optimize prompts at once; select based on page signals
 - If the URL is unreachable, report the error then list the prompts you would have applied

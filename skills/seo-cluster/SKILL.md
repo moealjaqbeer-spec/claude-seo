@@ -288,9 +288,6 @@ All outputs are written to the current working directory:
 | `seo-dataforseo` | Data source: SERP data when DataForSEO MCP is available |
 | `seo-google` | Reporting: generate PDF report of cluster plan and scorecard |
 
-After cluster planning or execution completes, offer:
-"Generate a PDF report? Use `/seo google report`"
-
 ---
 
 ## Error Handling
