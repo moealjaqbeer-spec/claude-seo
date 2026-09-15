@@ -25,7 +25,7 @@ function pythonCandidates() {
 }
 
 function isStoreStubOutput(text) {
-  return /Microsoft Store|WindowsApps|App execution alias|was not found/i.test(text);
+  return /App execution alias|was not found/i.test(text);
 }
 
 function probe(candidate) {

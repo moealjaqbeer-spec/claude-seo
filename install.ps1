@@ -80,7 +80,7 @@ function Test-PythonCandidate {
         return $null
     }
 
-    if ($probeText -match 'Microsoft Store|WindowsApps|App execution alias|was not found') {
+    if ($probeText -match 'App execution alias|was not found') {
         return $null
     }
 
